@@ -10,7 +10,7 @@
 	$siteVersion = 0.1;
 	$siteContactName = "WebAdmin";
 	$siteContactEmail = "webAdmin@yourwebsite.com";
-	$siteCopyright = "This website is © yourwebsie.com";
+	$siteCopyright = "This website is © yourwebsite.com";
 	$siteCopyrightYear = "2012";
 	$siteDomainURL = "http://www.yourwebsite.com";
 
