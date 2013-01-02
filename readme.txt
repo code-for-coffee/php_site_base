@@ -2,7 +2,7 @@
 php_site_base
 
 "Simple php site base template."
-v0.2 - 12/3/2012
+v0.3 - 1/1/2012
 -------------------------------------
 
 Released under GPL 3.0
@@ -41,10 +41,15 @@ To add additional pages to your website you'll need to do the following:
 	3. Change line 16 of the new index.php file - include("content.php"); - to match your new content page's filename.
 	4. Save the new files and link to them however you desire! Your header+footer code will be attached automatically.
 
+If you do NOT require database connectivity:
+
+	* Do NOT upload the /code/ directory.
 
 -------------------------------------
 Release Notes
 -------------------------------------
+v.03
+	* added basic MySQL support (via code/methods.php)
 v.02
 	* added readme + instructions
 	* edited content.php
