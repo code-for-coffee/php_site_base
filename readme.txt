@@ -2,7 +2,7 @@
 php_site_base
 
 "Simple php site base template."
-v0.3 - 1/1/2012
+v0.4 - 1/25/2012
 -------------------------------------
 
 Released under GPL 3.0
@@ -48,6 +48,10 @@ If you do NOT require database connectivity:
 -------------------------------------
 Release Notes
 -------------------------------------
+v.04
+	* added example functions in the code/methods.php file
+	* updated a few files to make sure version support exists
+	* updated link to updated jQuery library
 v.03
 	* added basic MySQL support (via code/methods.php)
 v.02

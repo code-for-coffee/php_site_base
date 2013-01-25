@@ -7,7 +7,7 @@
 
 	// site specific
 	$siteName = "This Website";
-	$siteVersion = 0.1;
+	$siteVersion = 0.4;
 	$siteContactName = "webAdmin";
 	$siteContactEmail = "webAdmin@yourwebsite.com";
 	$siteCopyright = "This website is © yourwebsite.com";

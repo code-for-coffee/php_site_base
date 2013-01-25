@@ -4,9 +4,18 @@
 		<title><?php echo "$siteName"; ?></title> 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" type="text/css" href="style/main.css" />
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	</head>
-<body>
+	<script>
+	function setCookie() {
+		// checks to see if we have been here before; if not, creates cookie.
+		var siteHistory=getCookie("siteHistory");
+  		if (siteHistory=null && siteHistory="") {
+  			setCookie("siteHistory", "beenHere", 365);
+ 		}
+	}
+	</script>
+<body onload="setCookie();">
 
 
 
