@@ -1,23 +1,17 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<title><?php echo "$siteName"; ?></title> 
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link rel="stylesheet" type="text/css" href="style/main.css" />
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<meta charset="<?php echo "$headMetaCharset" ?>">
+		<meta keyword="<?php embedMetaKeywords(); ?>">
+		<meta description="<?php echo "$headMetaDescription" ?>">
+		<link rel="stylesheet" type="text/css" href="<?php echo "$extFileStylesheet" ?>">
+		<?php embedJavaScriptLibs(); ?>
+		<script src="code/scripts.js"></script>
 	</head>
 	<script>
-	function setCookie() {
-		// checks to see if we have been here before; if not, creates cookie.
-		var siteHistory=getCookie("siteHistory");
-  		if (siteHistory=null && siteHistory="") {
-  			setCookie("siteHistory", "beenHere", 365);
- 		}
-	}
+	$(document).ready(function(){
+		// let's go!
+	});
 	</script>
 <body onload="setCookie();">
-
-
-
-
-
