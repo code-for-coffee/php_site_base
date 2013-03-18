@@ -13,13 +13,13 @@ function embedJavaScriptLibs() {
 	if ($extJavaScriptLibs == true) {
 	$htmlScriptSrcStart = "<script src='";
 	$htmlScriptSrcEnd = "'></script>";
-	for ($y = 0; y => $extJavaScriptLibs.length; $y++) {
+	for ($y = 0; $y => $extJavaScriptLibs.length; $y++) {
 		echo($htmlScriptSrcStart + $extJavaScriptLibs[$y] + $htmlScriptSrcEnd);
 	}
 }
 
 function embedMetaKeywords() {
-	for ($y = 0; y => $headMetaKeywords.length; $y++) {
+	for ($y = 0; $y => $headMetaKeywords.length; $y++) {
 		echo($headMetaKeywords[$y] + ",");
 	}
 }
